@@ -5,10 +5,14 @@ import Footer from '../../Components/Footer/Footer'
 import Engine_Text from './Engine_Text/Engine_Text'
 import Sell_Car from './Sell_Car/Sell_Car'
 import Frequently_Questions from './Frequently_Questions/Frequently_Questions'
+import Contact_Us from './Contact_Us/Contact_Us'
+import About_Us from './About_Us/About_Us'
 
 function Home() {
   return (
     <div>
+        <About_Us />
+        <Contact_Us />
         <Ready />
         <Frequently_Questions />
         <Sell_Car />
