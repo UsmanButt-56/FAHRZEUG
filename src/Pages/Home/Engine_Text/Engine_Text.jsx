@@ -48,7 +48,7 @@ function Engine_Text() {
           <div className="bg-[#FAFAFA] mb-5 rounded-xl">
             {Two.map((two) => (
               <div key={two.id} className="p-5">
-                <h1 className="font-Roboto font-bold text-[32px] leading-[37.5px] text-black">{two.heading}</h1>
+                <h1 className="py-5 font-Roboto font-bold text-[32px] leading-[37.5px] text-black">{two.heading}</h1>
                 <p className="text-[#5B5B5B]">{two.paragraph}</p>
               </div>
             ))}

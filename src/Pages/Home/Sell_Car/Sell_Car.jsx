@@ -23,7 +23,7 @@ function Sell_Car() {
             Why Choose Fahrzeug-Ankauf.NRW?
           </h1>
           <ul className="list-disc ml-5 md:ml-7 py-3">
-            <li className="font-bold font-Roboto text-[10.06px] md:text-[16px] lg:text-[24px] leading-[12.6px] md:leading-[22.73px] lg:leading-[40px] text-[#616161] tracking-[0%]">
+            <li className="font-bold font-Roboto text-[10.06px] md:text-[16px] lg:text-[24px] leading-[12.6px] md:leading-[22.7px] lg:leading-[40px] text-[#616161] tracking-[0%]">
               Fast & Easy Process:{" "}
               <span className="font-normal">
                 Sell your car in just a few simple steps.
@@ -69,21 +69,21 @@ function Sell_Car() {
             How it Works
           </h1>
           <ol className="list-decimal ml-3 md:ml-7 space-y-2">
-            <li className="font-bold font-Roboto text-[10.06px] md:text-[16px] lg:text-[24px] leading-[12.6px] md:leading-[22.26px] lg:leading-[46px] text-[#616161] tracking-[0%]">
+            <li className="font-bold font-Roboto text-[14.22px] md:text-[16px] lg:text-[24px] leading-[27.3px] lg:leading-[46px] text-[#616161] tracking-[0%]">
               Contact Us:{" "}
               <span className="font-normal">
                 Fill out our online form or give us a call to provide details
                 about your car.
               </span>
             </li>
-            <li className="font-bold font-Roboto text-[10.06px] md:text-[16px] lg:text-[24px] leading-[12.6px] md:leading-[22.26px] lg:leading-[46px] text-[#616161] tracking-[0%]">
+            <li className="font-bold font-Roboto text-[14.22px] md:text-[16px] lg:text-[24px] leading-[27.3px] lg:leading-[46px] text-[#616161] tracking-[0%]">
               Get an Offer:{" "}
               <span className="font-normal">
                 Fill out our online form or give us a call to provide details
                 about your car.
               </span>
             </li>
-            <li className="font-bold font-Roboto text-[10.06px] md:text-[16px] lg:text-[24px] leading-[12.6px] md:leading-[22.26px] lg:leading-[46px] text-[#616161] tracking-[0%]">
+            <li className="font-bold font-Roboto text-[14.22px] md:text-[16px] lg:text-[24px] leading-[27.3px] lg:leading-[46px] text-[#616161] tracking-[0%]">
               Sell Your Car:{" "}
               <span className="font-normal">
                 We handle all the paperwork and pick up your car for free.

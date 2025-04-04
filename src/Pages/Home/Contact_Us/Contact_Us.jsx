@@ -2,15 +2,19 @@ import React from "react";
 import { IoMdCall } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
+import blank from '../../../assets/Rectanglelayer.png';
+import clock from '../../../assets/Rectanglec.png';
 function Contact_Us() {
   return (
-    <div className="w-full bg-white">
-      <div className="w-[94%] mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-[45%_55%]">
-          <div className="flex items-center border-2 border-green-500">
+    <div className="w-full py-6 relative"  style={{backgroundImage : `url(${clock})`}}>
+      {/* style={{backgroundImage : `url(${clock})`}} */}
+      <div class="absolute inset-0 bg-white opacity-85 z-0" style={{backgroundImage : `url(${blank})`}}></div>
+      <div className="w-[94%] mx-auto relative z-10 ">
+        <div className="grid grid-cols-1 lg:grid-cols-[45%_55%] gap-0">
+          <div className="flex items-center">
             <div className="px-0 md:px-28 lg:px-0">
               <h1 className="text-center lg:text-start font-Roboto font-bold text-[32px] md:text-[36px] lg:text-[60px] leading-[37.5px] md:leading-[42.19px] lg:leading-[70.31px]">Contact Us Today!</h1>
-              <p className="py-5 text-center font-Roboto text-[#696969] text-[16px] lg:text-[20px] leading-[18.75px] lg:leading-[23.44px]">
+              <p className="py-5 pr-3 md:pr-20 sm:pr-0 text-center lg:text-start font-Roboto text-[#696969] text-[16px] lg:text-[20px] leading-[18.75px] lg:leading-[23.44px]">
                 Have questions or want to sell your car? Fill out the form
                 below, and we’ll get back to you shortly!</p>
                <div className="flex flex-wrap justify-center gap-2">
@@ -27,7 +31,7 @@ function Contact_Us() {
             </div>
           </div>
           <div>
-            <div className="bg-white border-2 border-red-500 rounded-xl p-2 md:p-4 lg:p-6">
+            <div className="bg-white rounded-xl p-2 md:p-4 lg:p-6 my-4 md:my-2">
               {/* Personal Details */}
               <div>
                 <h1 className="font-roboto font-semibold text-[20px] md:text-[28px] leading-[23.44px] md:leading-[32.81px] tracking-[0%] py-3">
@@ -100,7 +104,7 @@ function Contact_Us() {
                 </div>
               </div>
               {/*  */}
-              <div className="w-full h-[72px] text-white bg-[#FF6600] rounded-full my-4 font-roboto font-normal text-[14px] md:text-[14.96px] lg:text-[23.14px] leading-[16.41px] md:leading-[17.53px] lg:leading-[27.12px]">
+              <div className="w-full h-[48px] lg:h-[72px] text-white bg-[#FF6600] rounded-full my-4 font-roboto font-normal text-[14px] md:text-[14.96px] lg:text-[23.14px] leading-[16.41px] md:leading-[17.53px] lg:leading-[27.12px]">
                 <button className="w-full h-full">Send Message</button>
               </div>
               <div className="flex justify-center">
@@ -109,6 +113,7 @@ function Contact_Us() {
                 </p>
               </div>
             </div>
+            
           </div>
         </div>
       </div>

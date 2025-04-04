@@ -1,5 +1,6 @@
 import React from "react";
-import logo from '../../assets/CoreCodify.png';
+//import logo from '../../assets/CoreCodify.png';
+import logo from "../../assets/Logo.svg";
 import { FaArrowRight } from "react-icons/fa6";
 function Footer() {
   const Quick = [
@@ -51,7 +52,8 @@ function Footer() {
       <div className="w-11/12 mx-auto py-10 border-b border-white">
         <div className="grid grid-cols-1 lg:grid-cols-[40%_60%] gap-5">
           <div className="flex flex-col gap-y-7">
-             <div className="w-[274px] h-[106px]">
+             <div className="w-[200px] h-[73px] md:w-[274px] md:h-[106px]">
+              {/* w-[108px] h-[44px] md:w-[138px] md:h-[53px] lg:w-[175px] lg:h-[68px] */}
               <img src={logo} alt="" className="w-full h-full"/>
              </div>
              <div>
@@ -64,7 +66,7 @@ function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="text-white">
             <h2 className="font-semibold text-[24px] leading-[28.13px] py-7">Quick Links</h2>
-            <ul className="space-y-3">
+            <ul className="space-y-5">
               {
                 Quick.map((quick) => (
                   <li key={quick.id} className="flex items-center gap-2 font-normal text-[20px] leading-[23.44px] text-[#CFCFCF]">{quick.name} <FaArrowRight /></li>
@@ -72,9 +74,9 @@ function Footer() {
               }
             </ul>
           </div>
-          <div className="text-white">
+          <div className="text-white py-3 sm:py-0">
             <h2 className="font-semibold text-[24px] leading-[28.13px] py-1 md:py-10"></h2>
-            <ul className="space-y-3">
+            <ul className="space-y-5">
               {
                 Other.map((other) => (
                   <li key={other.id} className="flex items-center gap-2 font-normal text-[20px] leading-[23.44px] text-[#CFCFCF]">{other.name} <FaArrowRight /></li>
